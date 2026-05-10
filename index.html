@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para mi madre</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-hearts"></div>
+
+  <audio id="bgMusic" autoplay loop>
+    <source src="Como Te Pago letra ( Lenier  ).mp3" type="audio/mpeg" />
+    Tu navegador no soporta audio.
+  </audio>
+
+  <main class="container">
+    <section class="card">
+      <button id="musicToggleBtn" class="music-floating-btn" aria-label="Activar o silenciar música">
+        🔊
+      </button>
+
+      <span class="tag">Día de la Madre</span>
+      <h1>Querida madre</h1>
+      <h2>Catherine Huanacune Feliciano</h2>
+
+      <p class="intro">
+        Hoy quiero dedicarte esta pequeña sorpresa con todo mi cariño.
+        Gracias por tu amor, tu esfuerzo, tu paciencia y por estar siempre conmigo.
+      </p>
+
+      <div class="button-group">
+        <button id="showPhotoBtn">Ver una foto especial</button>
+        <button id="message1Btn">Un mensaje para ti</button>
+        <button id="message2Btn">Lo que admiro de ti</button>
+        <button id="message3Btn">Lo que quiero decirte hoy</button>
+      </div>
+
+      <div id="photoSection" class="content-box hidden">
+        <h3>Una imagen especial ❤️</h3>
+        <img src="img/Madre.jpg" alt="Foto especial para mamá" class="special-photo" />
+        <p>
+          Cada recuerdo contigo tiene un lugar muy especial en mi corazón.
+        </p>
+      </div>
+
+      <div id="messageBox" class="content-box hidden">
+        <h3 id="messageTitle">Mensaje</h3>
+        <p id="messageText"></p>
+      </div>
+
+      <div class="final-text">
+        <p>
+          Feliz Día de la Madre. Gracias por ser mi guía, mi fuerza y una de las personas más importantes de mi vida.
+        </p>
+        <p class="signature">De parte mía, con todo mi amor ❤️</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
